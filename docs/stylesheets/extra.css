@@ -1,0 +1,28 @@
+/*
+	Title: Extra CSS for learn-k.com in MkDocs
+	Author: Stephen Taylor
+	Date: 2019.12.05
+ */
+
+/* countermand MkDocs insertion of href attribute after link anchor
+--------------------------------------------- */
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+ /* palette
+--------------------------------------------- */
+ [data-md-color-primary=yellow] .md-header
+ {
+ 	background: #f7da43; /* hsl(207, 100%, 40%) */
+ }
+ /* override accent background colour on repo download and star buttons */
+/*.scrollable .wrapper .repo a {
+ 	background: #8099fd;
+ }
+ 
+.nowrap {
+	white-space: nowrap;
+}

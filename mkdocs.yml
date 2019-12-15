@@ -1,0 +1,79 @@
+copyright: 'This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.'
+dev_addr: '0.0.0.0:7000'
+docs_dir: 'docs'
+extra_css:
+  - 'stylesheets/extra.css'
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://code.jquery.com/jquery-3.1.1.min.js'
+  - 'https://use.fontawesome.com/releases/v5.2.0/js/all.js'
+markdown_extensions:
+  - admonition
+  # - codehilite(guess_lang=false)
+  - extra
+  # - fenced_code
+  # - fontawesome_markdown
+  - pymdownx.arithmatex
+  # - pymdownx.betterem(smart_enable=all)
+  # - pymdownx.caret
+  # - pymdownx.critic
+  - pymdownx.details
+  # - pymdownx.emoji:
+  # emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  # - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  # - pymdownx.smartsymbols
+  # - pymdownx.superfences
+  # - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+  - toc:
+      permalink: false
+plugins:
+  - search
+  # - markdownextradata
+remote_branch: 'master'
+repo_name: 'GitHub'
+repo_url: 'https://github.com/5jt/learnk'
+site_dir: 'site'
+site_author: 'Stephen Taylor'
+site_description: "Documentation for the k programming language"
+site_name: 'K documentation'
+site_url: 'http://learn-k.com/'
+use_directory_urls: true
+theme:
+  # custom_dir: custom_theme/
+  favicon: ./img/favicon.ico
+  font:
+    text: 'Merriweather'
+    code: 'Roboto Mono'
+  name: 'material'
+  palette:
+    primary: 'yellow'
+    accent: 'black'
+  toc.title: "On this page"
+nav:
+  - Home: index.md
+  - Get started: 
+    - Install: start/index.md
+    - Calculator: start/calculator.md
+    - Lists: start/lists.md
+  - Reference card: ref/index.md
+  - Reference:
+    - Assign: ref/colon.md
+    - Add, Flip: ref/plus.md
+    - Subtract, Negate: ref/minus.md
+  - Basics:
+    - Commands: basics/syscmds.md
+    - Data: basics/data.md
+    - Errors: basics/errors.md
+    - Execution control: basics/control.md
+    - Files: basics/files.md
+    - Handles: basics/handles.md
+    - IPC: basics/ipc.md
+    - SQL: basics/sql.md
+    - Tables: basics/tables.md
+    - Glossary: basics/glossary.md
+  - Advanced: advanced/index.md
+  - Multilingual: from/index.md
+  - Knowledge Base: kb/index.md
