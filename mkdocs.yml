@@ -34,7 +34,7 @@ plugins:
   # - markdownextradata
 remote_branch: 'master'
 repo_name: 'GitHub'
-repo_url: 'https://github.com/5jt/learnk'
+repo_url: 'https://github.com/5jt/learn-k'
 site_dir: 'site'
 site_author: 'Stephen Taylor'
 site_description: "Documentation for the k programming language"
